@@ -4,7 +4,7 @@ export default url => ({
         body: 'body',
         input: (name, type = 'input') => {
             if (type === 'rich-text-input') {
-                return `.ra-input-${name} .ProseMirror`;
+                // return `.ra-input-${name} .ProseMirror`;
             }
             return `.create-page ${type}[name='${name}']`;
         },
