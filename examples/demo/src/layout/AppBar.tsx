@@ -19,7 +19,7 @@ const ConfigurationMenu = React.forwardRef((props, ref) => {
     return (
         <MenuItem
             component={Link}
-            // @ts-ignore
+            @ts-ignore
             ref={ref}
             {...props}
             to="/configuration"
